@@ -9,8 +9,8 @@ var status = 1; // 1 - online, 7 - invisible
 
 user = new steamUser();
 user.logOn({
-	accountName: username,
-	password: password,
+	accountName: kaas,
+	password: koek,
 	twoFactorCode: steamTotp.generateAuthCode(shared_secret),
 });
 user.on("loggedOn", () => {
